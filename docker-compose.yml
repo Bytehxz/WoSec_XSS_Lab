@@ -1,0 +1,15 @@
+services:
+  web-service:
+    build: web/
+    container_name: wosec-web
+    networks:
+      my_network:
+        ipv4_address: 172.18.0.12
+
+networks:
+  my_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.18.0.0/24
