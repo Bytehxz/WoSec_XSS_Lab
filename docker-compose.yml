@@ -2,9 +2,11 @@ services:
   web-service:
     build: web/
     container_name: wosec-web
-    networks:
-      my_network:
-        ipv4_address: 172.18.0.12
+    ports:
+      - 10001:80
+    # networks:
+    #   my_network:
+    #     ipv4_address: 172.18.0.12
 
 networks:
   my_network:
