@@ -4,7 +4,7 @@ date_default_timezone_set('America/Mexico_City');
 // Simulación de base de datos de usuarios
 $users = [
     'admin@gmail.com' => [
-        'password' => 'admin123', // En un caso real, usaríamos hash
+        'password' => 'admin123',
         'is_admin' => true
     ],
     'usuario1@gmail.com' => [
@@ -58,7 +58,7 @@ function getMessages() {
             }
         }
     }
-    return array_reverse($messages); // Mostrar los más recientes primero
+    return array_reverse($messages); // Mostrar los mensajes más recientes primero
 }
 
 function redirectIfNotLoggedIn() {
