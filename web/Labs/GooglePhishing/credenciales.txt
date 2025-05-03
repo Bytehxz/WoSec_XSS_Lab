@@ -1,3 +1,0 @@
-[2025-05-02 19:52:53] Email: asdasdasd@gmail.com | Password: sadasdasd
-[2025-05-02 19:56:08] Email: admin@gmail.com | Password: admin123
-[2025-05-02 20:07:52] Email: alan@gmail.com | Password: admin123
