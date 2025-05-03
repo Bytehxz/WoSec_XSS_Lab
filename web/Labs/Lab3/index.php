@@ -48,8 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="google-login">
                 <p>O inicia sesión con</p>
                 <button class="google-btn">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google">
-                    Google
+                    <img src="images/Google-Logo.svg" alt="Google Logo">
+                    Sign up with Google
                 </button>
             </div>
         </div>
