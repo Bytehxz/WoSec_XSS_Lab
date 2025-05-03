@@ -3,16 +3,16 @@ session_start();
 date_default_timezone_set('America/Mexico_City');
 // Simulación de base de datos de usuarios
 $users = [
-    'admin' => [
+    'admin@gmail.com' => [
         'password' => 'admin123', // En un caso real, usaríamos hash
         'is_admin' => true
     ],
-    'usuario1' => [
-        'password' => 'usuario123',
+    'usuario1@gmail.com' => [
+        'password' => 'usuario1123',
         'is_admin' => false
     ],
-    'usuario2' => [
-        'password' => 'usuario123',
+    'usuario2@gmail.com' => [
+        'password' => 'usuario2123',
         'is_admin' => false
     ]
 ];
