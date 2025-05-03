@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+date_default_timezone_set('America/Mexico_City');
 // Simulación de base de datos de usuarios
 $users = [
     'admin' => [
