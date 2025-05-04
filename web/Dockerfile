@@ -11,6 +11,7 @@ RUN rm /var/www/localhost/htdocs/index.html
 # Lab1
 RUN mkdir /var/www/localhost/htdocs/Lab1
 COPY Labs/Lab1/ /var/www/localhost/htdocs/Lab1
+RUN chmod 666 /var/www/localhost/htdocs/Lab1/tareas.txt
 
 # Lab2
 RUN mkdir /var/www/localhost/htdocs/Lab2
